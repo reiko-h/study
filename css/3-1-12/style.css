@@ -1,0 +1,37 @@
+@charset "UTF-8";
+body {
+  background-color: #fee;
+  background-image: url(bread-color-cooking-1565982.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div {
+  background: #fffac2;
+  width: 500px;
+  height: 400px;
+  margin-top: 30px;
+  margin-left: 100px;
+  padding: 20px;
+}
+h1 {
+  color: tomato;
+  font-family: serif;
+  background-color: #faa;
+}
+h2 {
+  color: navy;
+  font-size: 20px;
+  font-family: "遊ゴシック体", "Yu Gothic", YuGothic, sans-serif;
+}
+p {
+  color: rgba(10, 130, 165);
+  font-weight: lighter;
+  font-family: 'Kosugi Maru', sans-serif;
+  line-height: 1.7;
+  text-align: justify;
+  padding: 20px;
+  border: 5px dotted tomato;
+}
+ul {
+  list-style-image: url(images/star.png);
+}
