@@ -9,7 +9,8 @@ body {
   color: #432;
 }
 #home {
-  background-image: url(../images/main-bg.jpg);
+  background-image: url(../images/main-bg.jpg),linear-gradient(#c9ffbf, #ffafbd);
+  background-blend-mode: luminosity;
   min-height: 100vh;
 }
 #home .page-title {
@@ -78,4 +79,23 @@ img {
 }
 .button:hover {
   background: #0090aa;
+}
+/* NEWS */
+#news {
+  background-image: url(../images/news-bg.jpg) ;
+  height: 270px;
+  margin-bottom: 40px;
+}
+#news .page-title {
+  text-align: center;
+}
+footer {
+  background: #432;
+  text-align: center;
+  padding: 26px 0;
+  margin-top: 50px;
+}
+footer p {
+  color: #fff;
+  font-size: 0.875rem;
 }
