@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:url" content="http://example.com/index.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Tama Home">
+    <meta property="og:description" content="「毎日の暮らしの中に&quot;好き&quot;が溢れていると、
+    人生はもっと、楽しくなる。」をテーマに、好きなものをとことん集めて紹介する個人のWebサイトです。">
+    <meta property="og:image" content="http://example.com/images/ogp.jpg">
+    <title>Tama Home - CONTACT</title>
+    <meta name="description" content="「毎日の暮らしの中に&quot;好き&quot;が溢れていると、
+    人生はもっと、楽しくなる。」をテーマに、好きなものをとことん集めて紹介する個人のWebサイトです。">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <!-- CSS -->
+  <!-- relとhrefの順番について意味があるのか調べる-->
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  </head>
+
+  <body>
+    <div id="contact" class="big-bg">
+    <header class="page-header wrapper">
+      <h1><a href="index.html"><img class="logo" src="images/logo.png" alt="TamaHome"></a></h1>
+      <nav>
+        <!-- 以下、多いのでいずれジャンル分けしたい -->
+        <ul class="main-nav">
+          <li><a href="concept.html">コンセプト</a></li>
+          <li><a href="news.html">お知らせ</a></li>
+          <li><a href="food.html">食材</a></li>
+          <li><a href="processed-food.html">加工品</a></li>
+          <li><a href="kitchen.html">キッチン用品</a></li>
+          <li><a href="interior.html">インテリア</a></li>
+          <!-- <li><a href="store.html">お店</a></li> -->
+          <!-- <li><a href="original.html">オリジナルグッズ</a></li> -->
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="wrapper">
+      <h2 class="page-title">お問い合わせ</h2>
+      <form action="#">
+        <div>
+          <label for="name">お名前</label>
+          <input type="text" id="name" name="your-name">
+        </div>
+
+        <div>
+          <label for="email">メールアドレス</label>
+          <input type="email" id="email" name="your-email">
+        </div>
+
+        <div>
+          <label for="message">メッセージ</label>
+          <textarea id="message" name="your-message"></textarea>
+        </div>
+
+        <input type="submit" class="button" value="送信">
+      </form>
+    </div>
+  </div><!-- /#contact -->
+
+  <section id="location">
+    <div class="wrapper">
+      <div class="location-info">
+        <h3 class="sub-title">セレクトショップ　東駅前店</h3>
+        <p>
+          住所：東京都◯◯区<br>
+          ◯◯◯◯◯◯◯◯ 000-22-1<br>
+          電話：03-1111-1111<br>
+          営業時間：10:00〜20:00<br>
+          定休日：水曜
+        </p>
+      </div>
+      <div class="location-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12966.29156497805!2d139.72487426819094!3d35.6628932816198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b82cfc07c6d%3A0x4f60032b22901b1f!2z5LiJ5rKz5Y-w5YWs5ZyS!5e0!3m2!1sja!2sjp!4v1564990571338!5m2!1sja!2sjp" width="800" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section><!-- /#location -->
+
+  <section id="sns">
+    <div class="wrapper">
+      <div class="sns-box">
+        <h3 class="sub-title">Facebook</h3>
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Freiko.hojyo%2F&tabs=timeline&width=0&height=315&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="340" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+      </div>
+
+      <div class="sns-box">
+        <h3 class="sub-title">Twitter</h3>
+        <a class="twitter-timeline" data-height="315" href="https://twitter.com/tama_sirataro?ref_src=twsrc%5Etfw">Tweets by tama_sirataro</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+
+      <div class="sns-box">
+        <h3 class="sub-title">YouTube</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/778MWK2Pz0w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div><!-- /.wrapper -->
+  </section><!-- /#sns -->
+
+  <footer>
+    <div class="wrapper">
+      <p><small>&copy; 2019 Tamabox</small></p>
+    </div>
+  </body>
+
+</html>
