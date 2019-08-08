@@ -1,0 +1,27 @@
+body {
+  color: #333;
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+header {
+  background: pink;
+  text-align: right;
+  padding: 10px;
+}
+ul {
+  margin: 0;
+  list-style-type: none;
+  padding-left: 0;
+}
+li {
+  display: inline-block;
+  padding: 4px 8px;
+  font-size: 12px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: royalblue;
+}
